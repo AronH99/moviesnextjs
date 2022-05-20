@@ -1,0 +1,28 @@
+@import url("https://unpkg.com/mvp.css");
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  article {
+    cursor: pointer;
+    flex: 1 1 300px;
+    a {
+      display: block;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+    }
+    h1 {
+      text-align: center;
+      white-space: wrap;
+    }
+    border: 1px solid gray;
+  }
+}
